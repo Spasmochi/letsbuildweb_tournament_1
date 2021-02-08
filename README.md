@@ -32,6 +32,7 @@ You can modify existing tags
 You can add additional tags so long as they do not contain additional copy or media (images, video etc.)
 
 ## Dependencies
+- git: https://git-scm.com/downloads
 - Node: https://www.npmjs.com/get-npm
 - npm: https://www.npmjs.com/get-npm
 - parcel: https://parceljs.org/getting_started.html
