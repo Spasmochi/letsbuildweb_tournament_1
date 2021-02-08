@@ -20,10 +20,15 @@ A winner will be selected by Spasmodic who will pay up to $50USD for a prize of 
 ## Rules
 
 You cannot add additional copy or media
+
 You cannot delete any existing elements
+
 You cannot install additional dependencies
+
 You cannot edit or add copy
+
 You can modify existing tags
+
 You can add additional tags so long as they do not contain additional copy or media (images, video etc.)
 
 ## Dependencies
