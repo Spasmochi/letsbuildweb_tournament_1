@@ -25,3 +25,11 @@ You cannot install additional dependencies
 You cannot edit or add copy
 You can modify existing tags
 You can add additional tags so long as they do not contain additional copy or media (images, video etc.)
+
+## Dependencies
+- Node: https://www.npmjs.com/get-npm
+- npm: https://www.npmjs.com/get-npm
+- parcel: https://parceljs.org/getting_started.html
+
+## Questions
+If you have any questions at all feel free to reach out to Spasmodic on the discord. He will be able to answer your questions.
