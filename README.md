@@ -1,4 +1,4 @@
-# letsbuildweb_tournament_1
+#  :mega: letsbuildweb tournament 1 :mega:
 
 A design/dev challenge for members of the let's build web community
 
