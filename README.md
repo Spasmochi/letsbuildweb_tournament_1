@@ -1,4 +1,4 @@
-# letsbuildweb_tournament_1
+#  :mega: letsbuildweb tournament 1 :mega:
 
 A design/dev challenge for members of the let's build web community
 
@@ -19,9 +19,22 @@ A winner will be selected by Spasmodic who will pay up to $50USD for a prize of 
 
 ## Rules
 
-You cannot add additional copy or media
-You cannot delete any existing elements
-You cannot install additional dependencies
-You cannot edit or add copy
-You can modify existing tags
-You can add additional tags so long as they do not contain additional copy or media (images, video etc.)
+You cannot :no_entry_sign:
+- add additional copy or media 
+- delete any existing elements
+- install additional dependencies
+- edit or add copy
+
+
+You can  :white_check_mark:
+- modify existing tags
+- add additional tags so long as they do not contain additional copy or media (images, video etc.)
+
+## Dependencies
+- git: https://git-scm.com/downloads
+- Node: https://www.npmjs.com/get-npm
+- npm: https://www.npmjs.com/get-npm
+- parcel: https://parceljs.org/getting_started.html
+
+## Questions
+If you have any questions at all feel free to reach out to Spasmodic on the discord. He will be able to answer your questions.
