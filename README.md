@@ -16,6 +16,7 @@ A winner will be selected by Spasmodic who will pay up to $50USD for a prize of 
 6. style the website content how you like, place your styles inside the challenge.css file
 7. commit your changes
 8. push your changes
+9. Submit the feedback form: https://forms.gle/QvxDRpS1wLSZRfjK8
 
 ## Rules
 
