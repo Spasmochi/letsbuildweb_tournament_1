@@ -32,7 +32,7 @@ You can  :white_check_mark:
 - modify existing tags
 - add additional tags so long as they do not contain additional copy or media (images, video etc.)
 
-## Judging Criteria
+## Judging Criteria 🏛
 - [50%] Creativity, have fun! Get jiggy with it! How creative can you get?
 - [30%] Responsiveness, do the applied styles manage variable device-widths effectively?
 - [15%] UX, has the developer made clear choices to maximise the user experience?
@@ -44,7 +44,7 @@ You can  :white_check_mark:
 - npm: https://www.npmjs.com/get-npm
 - parcel: https://parceljs.org/getting_started.html
 
-## Relevant learning resources
+## Relevant learning resources 👩🏾‍🏫
 - [CSS Tricks](https://css-tricks.com)
 - [EDX | Introduction to Web Accessiblity](https://www.edx.org/course/web-accessibility-introduction)
 - [Refactoring UI | CSS Day 2019](https://www.youtube.com/watch?v=7Z9rrryIOC4&feature=youtu.be)
