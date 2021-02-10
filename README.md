@@ -1,5 +1,5 @@
 #  :mega: letsbuildweb tournament 1 :mega:
-[![Discord Chat](https://img.shields.io/discord/700646309190959206.svg)](https://discord.gg/FgEJkgvU)  | 
+[![Discord Chat](https://img.shields.io/badge/LetsBuildWeb2020-Come%20join%20our%20discord%20server!-brightgreen)](https://discord.gg/FgEJkgvU) [![Github All Releases](https://img.shields.io/github/downloads/Spasmochi/letsbuildweb_tournament_1/total.svg)]() 
 
 A design/dev challenge for members of the let's build web community
 
