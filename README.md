@@ -44,7 +44,9 @@ You can  :white_check_mark:
 - parcel: https://parceljs.org/getting_started.html
 
 ## Relevant learning resources
-- [https://css-tricks.com/](CSS Tricks)
+- [CSS Tricks](https://css-tricks.com)
+- [EDX | Introduction to Web Accessiblity](https://www.edx.org/course/web-accessibility-introduction)
+- [Refactoring UI | CSS Day 2019](https://www.youtube.com/watch?v=7Z9rrryIOC4&feature=youtu.be)
 
 ## Questions
 If you have any questions at all feel free to reach out to Spasmodic on the discord. He will be able to answer your questions.
