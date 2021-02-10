@@ -7,6 +7,8 @@ The focus of this challenge is to let you be as creative as you like. Having bee
 
 A winner will be selected by Spasmodic who will pay up to $50USD for a prize of your choosing. The type of prize will be negotiated between yourself and Spasmodic, the prize should be related to web development. Some examples of a suitable prize would be a course or a book.
 
+![](https://i.imgur.com/nhAM85f.gif)
+
 ## Instructions
 
 1. Clone the repo
@@ -38,6 +40,14 @@ You can  :white_check_mark:
 - [15%] UX, has the developer made clear choices to maximise the user experience?
 - [5%] Accessiblity, are the contrast values within recommended ranges? Has the devloper made use of semantically meaningful markup?
 
+## The Prize 📣📣📣📣📣
+$50USD contributed by Spasmodic to the winner to purchase web development learning materials
+![](https://i.imgur.com/JvmsYW9.gif)
+
+
+If you are selected as the winner you will be able to discuss with Spasmodic the details of what you would like or you can ask him to nominate something for you.
+
+
 ## Dependencies
 - git: https://git-scm.com/downloads
 - Node: https://www.npmjs.com/get-npm
@@ -52,3 +62,4 @@ You can  :white_check_mark:
 
 ## Questions [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Spasmochi/)
 If you have any questions at all feel free to reach out to Spasmodic on the discord. He will be able to answer your questions.
+![](https://i.imgur.com/Lv3PAta.gif)
