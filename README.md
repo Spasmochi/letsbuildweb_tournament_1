@@ -1,4 +1,5 @@
 #  :mega: letsbuildweb tournament 1 :mega:
+[![Discord Chat](https://img.shields.io/discord/700646309190959206.svg)](https://discord.gg/FgEJkgvU)  | 
 
 A design/dev challenge for members of the let's build web community
 
@@ -49,5 +50,5 @@ You can  :white_check_mark:
 - [Refactoring UI | CSS Day 2019](https://www.youtube.com/watch?v=7Z9rrryIOC4&feature=youtu.be)
 - [Refactoring UI | Website](https://refactoringui.com/)
 
-## Questions
+## Questions [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Spasmochi/)
 If you have any questions at all feel free to reach out to Spasmodic on the discord. He will be able to answer your questions.
