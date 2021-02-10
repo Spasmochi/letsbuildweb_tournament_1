@@ -31,11 +31,20 @@ You can  :white_check_mark:
 - modify existing tags
 - add additional tags so long as they do not contain additional copy or media (images, video etc.)
 
+## Judging Criteria
+- [50%] Creativity, have fun! Get jiggy with it! How creative can you get?
+- [30%] Responsiveness, do the applied styles manage variable device-widths effectively?
+- [15%] UX, has the developer made clear choices to maximise the user experience?
+- [5%] Accessiblity, are the contrast values within recommended ranges? Has the devloper made use of semantically meaningful markup?
+
 ## Dependencies
 - git: https://git-scm.com/downloads
 - Node: https://www.npmjs.com/get-npm
 - npm: https://www.npmjs.com/get-npm
 - parcel: https://parceljs.org/getting_started.html
+
+## Relevant learning resources
+- [https://css-tricks.com/](CSS Tricks)
 
 ## Questions
 If you have any questions at all feel free to reach out to Spasmodic on the discord. He will be able to answer your questions.
