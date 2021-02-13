@@ -1,0 +1,57 @@
+:root {
+  --dark-grey: #202020;
+  --medium-grey: #707070;
+  --light-grey: #aaaaaa;
+  --yellow: #ffdf6c;
+  --white: #ffffff;
+}
+
+body {
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  padding: 5%;
+  margin: 0%;
+  text-align: right;
+  background: var(--dark-grey);
+}
+
+#header h1 {
+  color: var(--yellow);
+}
+
+#header p {
+  color: var(--light-grey);
+}
+
+.content {
+  padding: 5% 5% 0% 5%;
+}
+
+.content h2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.content p {
+  font-weight: 300;
+}
+
+.content img {
+  width: 100px;
+  filter: invert(100%) sepia(50%) saturate(3053%) hue-rotate(314deg)
+    brightness(107%) contrast(105%);
+  display: block;
+  margin: auto;
+}
+
+@media (min-width: 600px) {
+  body {
+    background: green;
+  }
+}
