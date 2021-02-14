@@ -11,14 +11,15 @@ A winner will be selected by Spasmodic who will pay up to $50USD for a prize of 
 
 ## Instructions
 
-1. Fork the repo
-2. run `npm install -g parcel-bundler` to install parcel globally, this is needed for features like live reload
-3. run `npm install` to install the dependencies
-4. run `npm run dev` to run the website in development mode
-5. style the website content how you like, place your styles inside the challenge.css file
-6. commit your changes
-7. submit a pr to merge your changes with my main branch
-8. Submit the feedback form: https://forms.gle/QvxDRpS1wLSZRfjK8
+1. fork the repo
+2. create a new branch with your discord username
+3. run `npm install -g parcel-bundler` to install parcel globally, this is needed for features like live reload
+4. run `npm install` to install the dependencies
+5. run `npm run dev` to run the website in development mode
+6. style the website content how you like, place your styles inside the challenge.css file
+7. commit your changes
+8. submit a pr to merge your changes with my main branch
+9. Submit the feedback form: https://forms.gle/QvxDRpS1wLSZRfjK8
 
 ## Rules
 
