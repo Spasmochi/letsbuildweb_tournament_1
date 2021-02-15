@@ -1,0 +1,309 @@
+:root {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+body {
+  background: #3f51b5;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.page > div {
+  margin: auto;
+  max-width: 960px;
+  padding: 0 2em;
+  display: grid;
+  gap: 1.5em;
+}
+
+.speechWrapper {
+  display: grid;
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.speech-bubble {
+  width: 260px;
+  padding: 2rem;
+  grid-row-start: 1;
+  grid-column: span 1 / span 1;
+  grid-column-start: 1;
+  position: relative;
+  background: #ffffff;
+  border-radius: 0.4em;
+  max-width: 726px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.speech-bubble p {
+  line-height: 1.5rem;
+}
+
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 22%;
+  width: 0;
+  height: 0;
+  border: 24px solid transparent;
+  border-top-color: #ffffff;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -12px;
+  margin-bottom: -24px;
+}
+
+.bobbing {
+  animation-name: bobbing;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-top: 5px;
+}
+
+@keyframes bobbing {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+.skyBoi {
+  box-shadow: 10px 10px 0 0 #3f51b5, 20px 10px 0 0 #3f51b5,
+    30px 10px 0 0 #3f51b5, 40px 10px 0 0 #3f51b5, 50px 10px 0 0 #3f51b5,
+    60px 10px 0 0 #3f51b5, 70px 10px 0 0 #3f51b5, 80px 10px 0 0 black,
+    90px 10px 0 0 black, 100px 10px 0 0 black, 110px 10px 0 0 black,
+    120px 10px 0 0 black, 130px 10px 0 0 black, 140px 10px 0 0 #3f51b5,
+    150px 10px 0 0 #3f51b5, 160px 10px 0 0 #3f51b5, 170px 10px 0 0 #3f51b5,
+    180px 10px 0 0 #3f51b5, 190px 10px 0 0 #3f51b5, 200px 10px 0 0 #3f51b5,
+    10px 20px 0 0 #3f51b5, 20px 20px 0 0 #3f51b5, 30px 20px 0 0 #3f51b5,
+    40px 20px 0 0 #3f51b5, 50px 20px 0 0 #3f51b5, 60px 20px 0 0 black,
+    70px 20px 0 0 black, 80px 20px 0 0 #00bcd4, 90px 20px 0 0 #00bcd4,
+    100px 20px 0 0 #00bcd4, 110px 20px 0 0 #00bcd4, 120px 20px 0 0 #00bcd4,
+    130px 20px 0 0 #00bcd4, 140px 20px 0 0 black, 150px 20px 0 0 black,
+    160px 20px 0 0 #3f51b5, 170px 20px 0 0 #3f51b5, 180px 20px 0 0 #3f51b5,
+    190px 20px 0 0 #3f51b5, 200px 20px 0 0 #3f51b5, 10px 30px 0 0 #3f51b5,
+    20px 30px 0 0 #3f51b5, 30px 30px 0 0 #3f51b5, 40px 30px 0 0 #3f51b5,
+    50px 30px 0 0 black, 60px 30px 0 0 #00bcd4, 70px 30px 0 0 #00bcd4,
+    80px 30px 0 0 #00bcd4, 90px 30px 0 0 #00bcd4, 100px 30px 0 0 #00bcd4,
+    110px 30px 0 0 #00bcd4, 120px 30px 0 0 #00bcd4, 130px 30px 0 0 #00bcd4,
+    140px 30px 0 0 #00bcd4, 150px 30px 0 0 #00bcd4, 160px 30px 0 0 black,
+    170px 30px 0 0 #3f51b5, 180px 30px 0 0 #3f51b5, 190px 30px 0 0 #3f51b5,
+    200px 30px 0 0 #3f51b5, 10px 40px 0 0 #3f51b5, 20px 40px 0 0 #3f51b5,
+    30px 40px 0 0 #3f51b5, 40px 40px 0 0 black, 50px 40px 0 0 #00bcd4,
+    60px 40px 0 0 #00bcd4, 70px 40px 0 0 #00bcd4, 80px 40px 0 0 #00bcd4,
+    90px 40px 0 0 #00bcd4, 100px 40px 0 0 #00bcd4, 110px 40px 0 0 #00bcd4,
+    120px 40px 0 0 #00bcd4, 130px 40px 0 0 #00bcd4, 140px 40px 0 0 #00bcd4,
+    150px 40px 0 0 #00bcd4, 160px 40px 0 0 #00bcd4, 170px 40px 0 0 black,
+    180px 40px 0 0 #3f51b5, 190px 40px 0 0 #3f51b5, 200px 40px 0 0 #3f51b5,
+    10px 50px 0 0 #3f51b5, 20px 50px 0 0 #3f51b5, 30px 50px 0 0 #3f51b5,
+    40px 50px 0 0 black, 50px 50px 0 0 #00bcd4, 60px 50px 0 0 black,
+    70px 50px 0 0 white, 80px 50px 0 0 #00bcd4, 90px 50px 0 0 #00bcd4,
+    100px 50px 0 0 #00bcd4, 110px 50px 0 0 #00bcd4, 120px 50px 0 0 #00bcd4,
+    130px 50px 0 0 #00bcd4, 140px 50px 0 0 white, 150px 50px 0 0 black,
+    160px 50px 0 0 #00bcd4, 170px 50px 0 0 black, 180px 50px 0 0 #3f51b5,
+    190px 50px 0 0 #3f51b5, 200px 50px 0 0 #3f51b5, 10px 60px 0 0 #3f51b5,
+    20px 60px 0 0 #3f51b5, 30px 60px 0 0 black, 40px 60px 0 0 #00bcd4,
+    50px 60px 0 0 #3f51b5, 60px 60px 0 0 black, 70px 60px 0 0 black,
+    80px 60px 0 0 #00bcd4, 90px 60px 0 0 #00bcd4, 100px 60px 0 0 #00bcd4,
+    110px 60px 0 0 #00bcd4, 120px 60px 0 0 #00bcd4, 130px 60px 0 0 #00bcd4,
+    140px 60px 0 0 black, 150px 60px 0 0 black, 160px 60px 0 0 #3f51b5,
+    170px 60px 0 0 #00bcd4, 180px 60px 0 0 black, 190px 60px 0 0 #3f51b5,
+    200px 60px 0 0 #3f51b5, 10px 70px 0 0 #3f51b5, 20px 70px 0 0 #3f51b5,
+    30px 70px 0 0 black, 40px 70px 0 0 #00bcd4, 50px 70px 0 0 #3f51b5,
+    60px 70px 0 0 #3f51b5, 70px 70px 0 0 #00bcd4, 80px 70px 0 0 #00bcd4,
+    90px 70px 0 0 #00bcd4, 100px 70px 0 0 #00bcd4, 110px 70px 0 0 #00bcd4,
+    120px 70px 0 0 #00bcd4, 130px 70px 0 0 #00bcd4, 140px 70px 0 0 #00bcd4,
+    150px 70px 0 0 #3f51b5, 160px 70px 0 0 #3f51b5, 170px 70px 0 0 #00bcd4,
+    180px 70px 0 0 black, 190px 70px 0 0 white, 200px 70px 0 0 #3f51b5,
+    10px 80px 0 0 #3f51b5, 20px 80px 0 0 white, 30px 80px 0 0 black,
+    40px 80px 0 0 #00bcd4, 50px 80px 0 0 #00bcd4, 60px 80px 0 0 #00bcd4,
+    70px 80px 0 0 #00bcd4, 80px 80px 0 0 #00bcd4, 90px 80px 0 0 #00bcd4,
+    100px 80px 0 0 black, 110px 80px 0 0 black, 120px 80px 0 0 #00bcd4,
+    130px 80px 0 0 #00bcd4, 140px 80px 0 0 #00bcd4, 150px 80px 0 0 #00bcd4,
+    160px 80px 0 0 #00bcd4, 170px 80px 0 0 #00bcd4, 180px 80px 0 0 black,
+    190px 80px 0 0 white, 200px 80px 0 0 white, 10px 90px 0 0 white,
+    20px 90px 0 0 white, 30px 90px 0 0 black, 40px 90px 0 0 #00bcd4,
+    50px 90px 0 0 #00bcd4, 60px 90px 0 0 #00bcd4, 70px 90px 0 0 #00bcd4,
+    80px 90px 0 0 #00bcd4, 90px 90px 0 0 #00bcd4, 100px 90px 0 0 #00bcd4,
+    110px 90px 0 0 #00bcd4, 120px 90px 0 0 #00bcd4, 130px 90px 0 0 #00bcd4,
+    140px 90px 0 0 #00bcd4, 150px 90px 0 0 #00bcd4, 160px 90px 0 0 #00bcd4,
+    170px 90px 0 0 #00bcd4, 180px 90px 0 0 black, 190px 90px 0 0 white,
+    200px 90px 0 0 white, 10px 100px 0 0 white, 20px 100px 0 0 white,
+    30px 100px 0 0 white, 40px 100px 0 0 black, 50px 100px 0 0 black,
+    60px 100px 0 0 #00bcd4, 70px 100px 0 0 #00bcd4, 80px 100px 0 0 black,
+    90px 100px 0 0 black, 100px 100px 0 0 black, 110px 100px 0 0 black,
+    120px 100px 0 0 black, 130px 100px 0 0 black, 140px 100px 0 0 #00bcd4,
+    150px 100px 0 0 #00bcd4, 160px 100px 0 0 black, 170px 100px 0 0 black,
+    180px 100px 0 0 white, 190px 100px 0 0 white, 200px 100px 0 0 white,
+    10px 110px 0 0 white, 20px 110px 0 0 white, 30px 110px 0 0 white,
+    40px 110px 0 0 white, 50px 110px 0 0 white, 60px 110px 0 0 black,
+    70px 110px 0 0 black, 80px 110px 0 0 white, 90px 110px 0 0 white,
+    100px 110px 0 0 white, 110px 110px 0 0 white, 120px 110px 0 0 white,
+    130px 110px 0 0 white, 140px 110px 0 0 black, 150px 110px 0 0 black,
+    160px 110px 0 0 white, 170px 110px 0 0 white, 180px 110px 0 0 white,
+    190px 110px 0 0 white, 200px 110px 0 0 white, 10px 120px 0 0 #3f51b5,
+    20px 120px 0 0 white, 30px 120px 0 0 white, 40px 120px 0 0 white,
+    50px 120px 0 0 white, 60px 120px 0 0 white, 70px 120px 0 0 white,
+    80px 120px 0 0 white, 90px 120px 0 0 white, 100px 120px 0 0 white,
+    110px 120px 0 0 white, 120px 120px 0 0 white, 130px 120px 0 0 white,
+    140px 120px 0 0 white, 150px 120px 0 0 white, 160px 120px 0 0 white,
+    170px 120px 0 0 white, 180px 120px 0 0 white, 190px 120px 0 0 #3f51b5,
+    200px 120px 0 0 #3f51b5, 10px 130px 0 0 #3f51b5, 20px 130px 0 0 #3f51b5,
+    30px 130px 0 0 #3f51b5, 40px 130px 0 0 white, 50px 130px 0 0 white,
+    60px 130px 0 0 white, 70px 130px 0 0 white, 80px 130px 0 0 white,
+    90px 130px 0 0 white, 100px 130px 0 0 white, 110px 130px 0 0 white,
+    120px 130px 0 0 white, 130px 130px 0 0 white, 140px 130px 0 0 white,
+    150px 130px 0 0 white, 160px 130px 0 0 white, 170px 130px 0 0 #3f51b5,
+    180px 130px 0 0 #3f51b5, 190px 130px 0 0 #3f51b5, 200px 130px 0 0 #3f51b5,
+    10px 140px 0 0 #3f51b5, 20px 140px 0 0 #3f51b5, 30px 140px 0 0 #3f51b5,
+    40px 140px 0 0 #3f51b5, 50px 140px 0 0 #3f51b5, 60px 140px 0 0 white,
+    70px 140px 0 0 white, 80px 140px 0 0 white, 90px 140px 0 0 white,
+    100px 140px 0 0 white, 110px 140px 0 0 white, 120px 140px 0 0 white,
+    130px 140px 0 0 #3f51b5, 140px 140px 0 0 white, 150px 140px 0 0 white,
+    160px 140px 0 0 white, 170px 140px 0 0 #3f51b5, 180px 140px 0 0 #3f51b5,
+    190px 140px 0 0 #3f51b5, 200px 140px 0 0 #3f51b5, 10px 150px 0 0 #3f51b5,
+    20px 150px 0 0 #3f51b5, 30px 150px 0 0 #3f51b5, 40px 150px 0 0 #3f51b5,
+    50px 150px 0 0 #3f51b5, 60px 150px 0 0 #3f51b5, 70px 150px 0 0 #3f51b5,
+    80px 150px 0 0 #3f51b5, 90px 150px 0 0 #3f51b5, 100px 150px 0 0 #3f51b5,
+    110px 150px 0 0 #3f51b5, 120px 150px 0 0 #3f51b5, 130px 150px 0 0 #3f51b5,
+    140px 150px 0 0 #3f51b5, 150px 150px 0 0 #3f51b5, 160px 150px 0 0 #3f51b5,
+    170px 150px 0 0 #3f51b5, 180px 150px 0 0 #3f51b5, 190px 150px 0 0 #3f51b5,
+    200px 150px 0 0 #3f51b5;
+  height: 10px;
+  width: 10px;
+}
+
+@keyframes speaking {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.speaking {
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end);
+}
+
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#sixth,
+#seventh,
+#eigth {
+  opacity: 0;
+}
+
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#sixth,
+#seventh,
+#eigth {
+  animation: lets-say-hi 5s;
+}
+
+#first {
+  animation-delay: 0.5s;
+}
+#first .typwriter {
+  animation-delay: 0.5s;
+}
+
+#second {
+  animation-delay: 5.5s;
+}
+#second .typwriter {
+  animation-delay: 5.5s;
+}
+
+#third {
+  animation-delay: 10.5s;
+}
+#third .typwriter {
+  animation-delay: 10.5s;
+}
+
+#fourth {
+  animation-delay: 15.5s;
+}
+#fourth .typwriter {
+  animation: typing 3.5s steps(40, end);
+  animation-delay: 15.5s;
+}
+
+#fifth {
+  animation-delay: 20.5s;
+}
+#fifth .typwriter {
+  animation-delay: 20.5s;
+}
+
+#sixth {
+  animation-delay: 25.5s;
+}
+#sixth .typwriter {
+  animation-delay: 25.5s;
+}
+
+#seventh {
+  justify-content: space-around;
+  animation-delay: 30.5s;
+}
+#seventh .typwriter {
+  animation-delay: 30.5s;
+}
+
+#eigth {
+  animation-delay: 35.5s;
+}
+#eigth .typwriter {
+  animation-delay: 35.5s;
+}
+
+@keyframes lets-say-hi {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
