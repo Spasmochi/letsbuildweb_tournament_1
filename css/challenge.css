@@ -1,0 +1,246 @@
+html, body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-color: #010101;
+    /*background-color: #067B8D;*/
+    display: flex;
+    flex-direction: column;
+    color: white;
+    clip-path: polygon(
+    0 0, /* left top */
+    100% 0, /* right top */ 
+    100% 100%, /* right bottom */
+    0 80% /* left bottom */
+    );
+}
+
+.remove{
+    display: none;
+}
+
+#title_para{
+    display: inline;
+}
+
+#h1tit{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 5rem;
+}
+
+#hip{
+    margin-top: -2%;
+    margin-left: 15%;
+    font-size: 1.5rem;
+}
+
+.box{
+    background-color: #09072C;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 180px; 
+    box-shadow: 15px 15px 20px .5px rgba(0,0,0,.2);
+    animation-duration: 2.5s;
+    animation-name: slideleftright;
+}
+
+#last{
+    margin-bottom: 5%;
+}
+
+.boxn{
+    background-color: #09072C;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 170px; 
+    box-shadow: 15px 15px 20px .5px rgba(0,0,0,.2);
+    animation-duration: 2.5s;
+    animation-name: slideleftright;
+}
+
+.boxn p{
+    opacity: 0.9;
+}
+
+.boxnn{
+    background-color: #09072C;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 180px; 
+    box-shadow: 15px 15px 20px .5px rgba(0,0,0,.2);
+    animation-duration: 2.5s;
+    animation-name: slideleftright;
+}
+
+.box2{
+    background-color: #09072C;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 8.5%;
+    margin-right: 5%;
+    height: 140px; 
+    box-shadow: 15px 15px 20px .5px rgba(0,0,0,.2);
+    animation-duration: 2.5s;
+    animation-name: sliderightleft;
+}
+
+.full{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+}
+
+.text{
+    width: 45%; 
+    overflow: hidden;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+
+#arrow_scroll{
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+    background-color: #4481eb;
+    bottom: 15px;
+    left: 15px;
+    height: 30px;
+    width: 30px;
+    clip-path: polygon(
+        50% 0, /* left top */
+        50% 0, /* right top */ 
+        100% 100%, /* right bottom */
+        0 100% /* left bottom */
+    );
+    visibility: hidden;
+}
+
+@keyframes sliderightleft {
+  from {
+    margin-left: 100%;
+    width: 45%;
+  }
+
+  to {
+    margin-left: 5%;
+    width: 45%;
+  }
+}
+
+@keyframes slideleftright {
+  from {
+    margin-left: -55%;
+    width: 45%;
+  }
+
+  to {
+    margin-left: 5%;
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+
+    html, body{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    #title{
+        display: flex;
+        z-index: 2;
+        /*position: absolute;*/
+        margin-bottom: 0;
+        height: 250px;
+    }
+
+    #tit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hip{
+        position: relative;
+        display: flex;
+        z-index: 4;
+        margin-right: 6%;
+        overflow: hidden;
+        text-align: right;
+    }
+
+    #h1tit{
+        font-size: 2rem;
+        margin-left: 0;
+        z-index: 2;
+    }
+
+    .boxn{
+        z-index: 4;
+        margin-top: 0%;
+        height: 164px;
+        margin-bottom: -2%;
+        background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    }
+
+    .box2{
+        height: 190px;
+        background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    }
+
+    .box{
+        height: 189px;
+        background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    }
+
+    .custbox{
+        height: 140px;
+        background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    }
+    .boxnn{
+        background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+        height: 168px;
+    }
+
+    img{
+        width: 25%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .text {
+        font-size: 0.7rem;
+    }
+}
