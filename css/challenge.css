@@ -1,10 +1,8 @@
 body {
     font-family: "Work Sans", arial, sans-serif;    
-    /* margin: 0rem 1.5rem; */
 }
 
 section {
-    /* margin-bottom: 3rem; */
     padding: 10rem 1.5rem 12rem;
     text-align: center;
 }
@@ -113,7 +111,6 @@ align-items: center;
 
     .figure-container p {
         padding: 1rem 1rem;
-        /* font-size: 1rem; */
     }
     
     .figure-container {
