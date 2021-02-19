@@ -1,55 +1,75 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html class="no-js" lang="en">
 
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+<head>
+  <meta charset="utf-8" />
+  <title>Minimalist</title>
+  <meta name="description" content="All about minimalism." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="apple-touch-icon" href="icon.png" />
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
 
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/challenge.css" />
-    <meta name="theme-color" content="#fafafa" />
-  </head>
-  <body>
-    <!-- Add your site or application content here -->
-    <section>
-      <h1>Simple Website</h1>
-      <p>A simple website is a powerful thing.</p>
-    </section>
-    <section>
-      <h2>Header hierachies are valuable</h2>
-      <p>
-        Sometimes when we use semantic html we are able to improve some shit
-      </p>
-    </section>
-    <section>
-      <h2>
-        Layouts in html can be achieved through considering the flow of elements
-      </h2>
-      <img src="https://assets.codepen.io/521481/side.svg" />
-      <p>
-        Images are a great way to add semantic meaning to a sections content
-      </p>
-      <img src="https://assets.codepen.io/521481/fill.svg" />
-      <p>Avoid superfluous images like these.</p>
-      <img src="https://assets.codepen.io/521481/no.svg" />
-      <p>
-        You want to make sure that there is a relationship between copy and
-        media
-      </p>
-    </section>
-    <!-- Add your site content above -->
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="apple-touch-icon" href="icon.png" />
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/challenge.css" />
+  <meta name="theme-color" content="#fafafa" />  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Add your site or application content here -->
+  <section role="heading">
+    <h1 class="header-brand" tabindex="1">Simple Website</h1>
+    <p class="description-brand">A simple website is a powerful thing.</p>
+  </section>
+  <section class="section-usp" role="banner">
+    <h2 class="header-usp" tabindex="2">Header hierachies are valuable</h2>
+    <p class="description-usp">
+      Sometimes when we use semantic html we are able to improve some shit
+    </p>
+  </section>
+  <section class="section-features" role="presentation">
+    <h2 class="header-features" tabindex="3">
+      Layouts in html can be achieved through considering the flow of elements
+    </h2>
+    <div class="features-container" role="group">
+      <div class="figure-container" tabindex="4">
+        <figure aria-labelledby="image-1">
+          <img class="image" alt="3D-cube" src="https://assets.codepen.io/521481/side.svg" />
+        </figure>
+        <p>
+          Images are a great way to add semantic meaning to a sections content
+        </p>
+      </div>
+      <div class="figure-container" tabindex="5">
+        <figure aria-labelledby="image-2">
+          <img class="image" alt="two-squares" src="https://assets.codepen.io/521481/fill.svg" />
+        </figure>
+        <p>Avoid superfluous images like these.</p>
+        
+      </div>
+      <div class="figure-container" tabindex="6">
+        <figure aria-labelledby="image-3">
+          <img class="image" alt="square" src="https://assets.codepen.io/521481/no.svg" />
+        </figure>
+        <p>
+          You want to make sure that there is a relationship between copy and
+          media
+        </p>      
+      </div>      
+    </div>
+  </section>
+  <!-- Add your site content above -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
